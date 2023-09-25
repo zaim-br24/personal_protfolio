@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "20.x",
+    "npm": "7.x"
+  },
   "scripts": {
     "start": "vite build && npx serve -s build",
     "build": "vite build",
