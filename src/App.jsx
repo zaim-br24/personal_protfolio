@@ -12,33 +12,37 @@ import {
 } from './components'
 
 const App = ()=> {
-  const [loading , setLoading] = useState(false)
+  const [loading , setLoading] = useState(true)
 
   useEffect(()=>{
     setTimeout(()=>{
-      setLoading(true)
-    }, 1000)
-    }, [])
-    const closeAlert = ()=>{
       setLoading(false)
-    }
+    }, 5000)
+    }, [])
+  const closeAlert = ()=>{
+      setLoading(false)
+  }
 
   
   return (
    <BrowserRouter>
+    {loading && <Alert 
+    handleClick={closeAlert}
+    text="The live projects demo are deployed to heroku, they may load slowly."
+    type="Note"
+    />}
+
     <div className='relative z-0 bg-primary'>
-      <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+      <div className='bg-contact-bg bg-cover bg-no-repeat bg-center'>
         <Navbar/>
         <Hero/> 
       </div>
       <About/>
-      {loading && <Alert handleClick={closeAlert}/>}
-
       <Tech/>
       <Works/>
-      <Experiences/>
+      {/* <Experiences/> */}
 
-      <div className='relative z-0'>
+      <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center'>
         <Contact/>
       </div>
     </div>

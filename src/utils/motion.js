@@ -16,6 +16,12 @@ export const textVariant = (delay) => {
     },
   };
 };
+export const fadeDown = ()=> {
+ return { 
+  hidden: { x: -100 }, 
+  visible: { x: 0, transition: { duration: 1, ease: "easeOut" } } 
+}
+};
 
 export const fadeIn = (direction, type, delay, duration) => {
   return {

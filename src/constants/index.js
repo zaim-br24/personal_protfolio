@@ -269,7 +269,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "emailjs",
         color: "green-text-gradient",
       },
       {
@@ -283,7 +283,7 @@ const projects = [
     ],
     image: portfolio,
     live: eye,
-    source_code_link_github: "https://github.com/zaim-br24/3D_Portfolio",
+    source_code_link_github: "https://github.com/zaim-br24/personal_protfolio",
     source_code_link_live: "https://backdoor-53c042aa924a.herokuapp.com",
 
   },

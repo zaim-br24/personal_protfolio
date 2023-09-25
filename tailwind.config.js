@@ -12,6 +12,9 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      fontFamily: {
+        custom: ['Foldit', 'cursive'],
+      },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
@@ -20,6 +23,8 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.jpg')",
+        "contact-bg": "url('/src/assets/contactbg.jpg')",
+
       },
     },
   },
