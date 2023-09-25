@@ -17,7 +17,7 @@ const App = ()=> {
   useEffect(()=>{
     setTimeout(()=>{
       setLoading(false)
-    }, 5000)
+    }, 4000)
     }, [])
   const closeAlert = ()=>{
       setLoading(false)
@@ -27,9 +27,9 @@ const App = ()=> {
   return (
    <BrowserRouter>
     {loading && <Alert 
-    handleClick={closeAlert}
-    text="The live projects demo are deployed to heroku, they may load slowly."
-    type="Note"
+      handleClick={closeAlert}
+      text="The live projects demo are deployed to heroku, they may load slowly."
+      type="Note"
     />}
 
     <div className='relative z-0 bg-primary'>

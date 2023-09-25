@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 
 import { styles } from "../styles";
-// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -11,7 +10,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: -100 }}  
             animate={{ opacity: 1, x: 0 }}     
             transition={{ duration: 1 }}       
-            className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+            className={`absolute inset-0 top-[200px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >     
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#c0c0c0]' />

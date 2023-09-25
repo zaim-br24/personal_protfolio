@@ -9,10 +9,10 @@ import {styles} from '../styles'
 const Tech = () => {
   return (
     <>
-        <motion.div variants={textVariant()} >
+      <motion.div variants={textVariant()} >
             <p className={styles.sectionSubText}>Tech Stack</p>
             <h2 className={`${styles.sectionHeadText} font-custom mb-5`}>Technologies.</h2>
-        </motion.div>
+      </motion.div>
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       
       {technologies.map((technology) => (
