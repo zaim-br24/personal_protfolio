@@ -1,4 +1,3 @@
-
 import {
   mobile,
   backend,
@@ -27,55 +26,54 @@ import {
   backdoor,
   jobify,
   eye,
-  portfolio
-
-} from "../assets";
+  portfolio,
+} from '../assets';
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
   },
   {
-    id: "work",
-    title: "Work",
+    id: 'work',
+    title: 'Work',
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: 'contact',
+    title: 'Contact',
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: 'Web Developer',
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: 'Frontend Developer',
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: "MERN stack Developer",
+    title: 'MERN stack Developer',
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: 'HTML 5',
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: 'CSS 3',
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     icon: javascript,
   },
   // {
@@ -83,23 +81,23 @@ const technologies = [
   //   icon: typescript,
   // },
   {
-    name: "React JS",
+    name: 'React JS',
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: 'Redux Toolkit',
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: 'MongoDB',
     icon: mongodb,
   },
   // {
@@ -107,70 +105,70 @@ const technologies = [
   //   icon: threejs,
   // },
   {
-    name: "git",
+    name: 'git',
     icon: git,
   },
   {
-    name: "figma",
+    name: 'figma',
     icon: figma,
   },
   {
-    name: "docker",
+    name: 'docker',
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: 'React.js Developer',
+    company_name: 'Starbucks',
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: '#383E56',
+    date: 'March 2020 - April 2021',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: 'React Native Developer',
+    company_name: 'Tesla',
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: '#E6DEDD',
+    date: 'Jan 2021 - Feb 2022',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: 'Web Developer',
+    company_name: 'Shopify',
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: '#383E56',
+    date: 'Jan 2022 - Jan 2023',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: 'Full stack Developer',
+    company_name: 'Meta',
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: '#E6DEDD',
+    date: 'Jan 2023 - Present',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
 ];
@@ -178,117 +176,113 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+    name: 'Sara Lee',
+    designation: 'CFO',
+    company: 'Acme Co',
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: 'Chris Brown',
+    designation: 'COO',
+    company: 'DEF Corp',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: 'Lisa Wang',
+    designation: 'CTO',
+    company: '456 Enterprises',
+    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
 const projects = [
   {
-    name: "Job Tracker",
+    name: 'Job Tracker',
     description:
-      "Web-based platform that allows users to track and manage their jobs applications.",
+      'Web-based platform that allows users to track and manage their jobs applications.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: 'mongodb',
+        color: 'green-text-gradient',
       },
       {
-        name: "express",
-        color: "pink-text-gradient",
+        name: 'express',
+        color: 'pink-text-gradient',
       },
       {
-        name: "styledcomponents",
-        color: "orange-text-gradient",
+        name: 'styledcomponents',
+        color: 'orange-text-gradient',
       },
     ],
     image: jobify,
     live: eye,
-    source_code_link_github: "https://github.com/zaim-br24/jobify",
-    source_code_link_live: "https://jobify-dashboard-43860fb067ff.herokuapp.com/landing",
-
+    source_code_link_github: 'https://github.com/zaim-br24/jobify',
+    source_code_link_live:
+      'https://jobify-dashboard-43860fb067ff.herokuapp.com/landing',
   },
   {
-    name: "Backdoor",
+    name: 'Backdoor',
     description:
-      "Web application that enables users to Upload, Videos, clipshots, and Redoos.",
+      'Web application that enables users to Upload, Videos, clipshots, and Redoos.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: 'mongodb',
+        color: 'green-text-gradient',
       },
       {
-        name: "express",
-        color: "pink-text-gradient",
+        name: 'express',
+        color: 'pink-text-gradient',
       },
       {
-        name: "styledcomponents",
-        color: "orange-text-gradient",
+        name: 'styledcomponents',
+        color: 'orange-text-gradient',
       },
     ],
     image: backdoor,
     live: eye,
-    source_code_link_github: "https://github.com/zaim-br24/MERN_SECRET_APP",
-    source_code_link_live: "https://backdoor-53c042aa924a.herokuapp.com",
-
+    source_code_link_github: 'https://github.com/zaim-br24/MERN_SECRET_APP',
+    source_code_link_live: 'https://backdoor-53c042aa924a.herokuapp.com',
   },
   {
-    name: "Portfolio",
-    description:
-      "My personal Portfolio.",
+    name: 'Portfolio',
+    description: 'My personal Portfolio.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "emailjs",
-        color: "green-text-gradient",
+        name: 'emailjs',
+        color: 'green-text-gradient',
       },
       {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
+        name: 'tailwindcss',
+        color: 'pink-text-gradient',
       },
       {
-        name: "famermotion",
-        color: "orange-text-gradient",
+        name: 'famermotion',
+        color: 'orange-text-gradient',
       },
     ],
     image: portfolio,
     live: eye,
-    source_code_link_github: "https://github.com/zaim-br24/personal_protfolio",
-    source_code_link_live: "https://backdoor-53c042aa924a.herokuapp.com",
-
+    source_code_link_github: 'https://github.com/zaim-br24/personal_protfolio',
+    source_code_link_live:
+      'https://master--splendid-praline-5b339f.netlify.app/',
   },
-  
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
