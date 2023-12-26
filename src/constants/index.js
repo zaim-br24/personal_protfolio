@@ -227,8 +227,7 @@ const projects = [
     image: jobify,
     live: eye,
     source_code_link_github: 'https://github.com/zaim-br24/jobify',
-    source_code_link_live:
-      'https://jobify-dashboard-43860fb067ff.herokuapp.com/landing',
+    source_code_link_live: 'https://master.d3m2solkw40d5v.amplifyapp.com/',
   },
   {
     name: 'Backdoor',
