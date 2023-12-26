@@ -11,6 +11,7 @@ import blob from './blob.svg';
 import contactbg from './contactbg.jpg';
 
 import portfolio from './portfolio.png';
+import talktroop from './talktroop.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
@@ -71,4 +72,5 @@ export {
   portfolio,
   blob,
   contactbg,
+  talktroop,
 };

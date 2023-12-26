@@ -27,6 +27,7 @@ import {
   jobify,
   eye,
   portfolio,
+  talktroop,
 } from '../assets';
 
 export const navLinks = [
@@ -219,7 +220,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
       {
-        name: 'styledcomponents',
+        name: 'styled-components',
         color: 'orange-text-gradient',
       },
     ],
@@ -247,7 +248,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
       {
-        name: 'styledcomponents',
+        name: 'styled-components',
         color: 'orange-text-gradient',
       },
     ],
@@ -257,31 +258,32 @@ const projects = [
     source_code_link_live: 'https://backdoor-53c042aa924a.herokuapp.com',
   },
   {
-    name: 'Portfolio',
-    description: 'My personal Portfolio.',
+    name: 'Talktroop',
+    description:
+      'Improve your writing proficiency with talktroop – refine your skills by practicing with prebuilt sentences or adding your own.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'emailjs',
+        name: 'mongodb',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwindcss',
+        name: 'express',
         color: 'pink-text-gradient',
       },
       {
-        name: 'famermotion',
+        name: 'styled-components',
         color: 'orange-text-gradient',
       },
     ],
-    image: portfolio,
+    image: talktroop,
     live: eye,
-    source_code_link_github: 'https://github.com/zaim-br24/personal_protfolio',
-    source_code_link_live:
-      'https://master--splendid-praline-5b339f.netlify.app/',
+    source_code_link_github:
+      'https://github.com/zaim-br24/improve-writing-skills',
+    source_code_link_live: 'https://master.dr9lxivx2jxox.amplifyapp.com/',
   },
 ];
 

@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 5000);
   }, []);
   const closeAlert = () => {
     setLoading(false);
@@ -28,8 +28,7 @@ const App = () => {
       {loading && (
         <Alert
           handleClick={closeAlert}
-          // text="The live projects demo are deployed to heroku, they may load slowly."
-          text="There is a problem with live projects demo, You can vist github for more details."
+          text="The live project demos are hosted on free cloud platforms, so they might load slowly."
           type="Note"
         />
       )}
