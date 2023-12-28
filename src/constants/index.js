@@ -254,7 +254,7 @@ const projects = [
     image: backdoor,
     live: eye,
     source_code_link_github: 'https://github.com/zaim-br24/MERN_SECRET_APP',
-    source_code_link_live: 'https://backdoor-53c042aa924a.herokuapp.com',
+    source_code_link_live: 'https://master.d3sj4i9c6wnfw0.amplifyapp.com/',
   },
   {
     name: 'Talktroop',
