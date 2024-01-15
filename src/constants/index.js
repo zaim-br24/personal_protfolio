@@ -28,6 +28,7 @@ import {
   eye,
   portfolio,
   talktroop,
+  restapi
 } from '../assets';
 
 export const navLinks = [
@@ -283,6 +284,27 @@ const projects = [
     source_code_link_github:
       'https://github.com/zaim-br24/improve-writing-skills',
     source_code_link_live: 'https://master.dr9lxivx2jxox.amplifyapp.com/',
+  },
+  {
+    name: 'REST API',
+    description: 'REST API With Node, Express, TypeScript & MongoDB.',
+    tags: [
+      {
+        name: 'typescript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'express',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: restapi,
+    live: "",
+    source_code_link_github: 'https://github.com/zaim-br24/REST8_API_TS.git',
   },
 ];
 

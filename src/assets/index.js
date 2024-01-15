@@ -36,6 +36,8 @@ import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 import backdoor from './backdoor.png';
 import jobify from './jobify.png';
+import restapi from './restapi.png';
+
 
 export {
   logo,
@@ -73,4 +75,5 @@ export {
   blob,
   contactbg,
   talktroop,
+  restapi,
 };
